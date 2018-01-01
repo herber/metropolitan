@@ -1,0 +1,45 @@
+{
+  "name": "metropolitan",
+  "version": "0.0.0",
+  "description": "A minimal static site generator",
+  "license": "MIT",
+  "repository": "herber/metropolitan",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "tobihrbr.com"
+  },
+  "bin": "cli.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "formatted"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    ""
+  ],
+  "dependencies": {
+    "decamelize": "^1.2.0",
+    "ejs": "^2.5.7",
+    "globby": "^7.1.1",
+    "marked": "^0.3.9",
+    "mkdirp": "^0.5.1",
+    "mri": "^1.1.0",
+    "ora": "^1.3.0",
+    "recursive-copy": "^2.0.8",
+    "rimraf": "^2.6.2",
+    "untag": "^1.0.1",
+    "verim": "^1.0.0"
+  },
+  "devDependencies": {
+    "formatted": "^1.0.0"
+  },
+  "formatted": {}
+}
